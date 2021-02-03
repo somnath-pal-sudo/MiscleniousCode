@@ -1,0 +1,19 @@
+Feature: Account page feature
+
+  Background: 
+    Given user has already logged in to application
+      | username                |  | password      |
+      | pall.somnath2@gmail.com |  | somnathpal_11 |
+    Given user is on account page
+    When user gets the title of the page
+    Then page title shouldbe "My Account - My store"
+
+  Scenario: Account sections count
+    Given user is on account page
+    Then user gets accounts section
+      |Order history and details          |
+      | My credit slips           |
+      | My wishlists |
+      | My addresses |
+      |My personal information|
+    And acconts section count should be 5

@@ -1,0 +1,28 @@
+package Collections;
+
+import java.util.ArrayList;
+import java.util.Objects;
+
+public class ArrayListConcept {
+
+	@SuppressWarnings("unchecked")
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<Integer> ar= new ArrayList<Integer>();
+		ar.add(10);
+		ar.add(20);
+		//System.out.println(ar);
+		
+		//ArrayList<Integer> ar1= new ArrayList<Integer>();
+		//ar1.add(40);
+		//ar1.add(12);
+		
+		//System.out.println(ar.addAll(ar1));
+		
+		ArrayList<Integer> clonelist= (ArrayList<Integer>)ar.clone();
+		System.out.println(clonelist);
+		
+
+	}
+
+}

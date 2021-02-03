@@ -1,0 +1,22 @@
+package Collections;
+
+import java.util.ArrayList;
+//import java.util.Objects;
+
+public class ArrayListConcept {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<Integer> ar= new ArrayList<Integer>();
+		ar.add(10);
+		ar.add(20);
+		System.out.println(ar);
+		
+		ArrayList<String> ar1= new ArrayList<String>();
+		ar.add("Java");
+		Ar.add("Pyhon")
+		
+
+	}
+
+}

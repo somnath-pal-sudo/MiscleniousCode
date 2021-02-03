@@ -1,0 +1,18 @@
+package serializationDeserialization;
+
+public class Student {
+	
+	
+	public Integer id;
+	public String firstName;
+	public String lastname;
+	public String email;
+	public String programme;
+	
+	
+	
+
+		
+	
+	
+}

@@ -1,0 +1,8 @@
+Feature: uber booking feature
+
+Scenario: Booking Cab
+Given User wants to select a car type "Sedan" from uber app
+When user selects car "Sedan" and pickup from "Bangalore" and drop location "Pune"
+Then Driver starts journey
+And Driver ends the journey
+Then User pays 1000 USD

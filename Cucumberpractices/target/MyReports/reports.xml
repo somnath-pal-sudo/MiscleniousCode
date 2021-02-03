@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.542">
+<testcase classname="calculate billing amount" name="billing amount" time="0.11">
+<system-out><![CDATA[Given user is on biling page................................................passed
+When user enters billing amount  <biling amount>............................passed
+When userenters tax amount 1................................................passed
+And user clicks on calculate button.........................................passed
+Then it gives the final amount 112..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="calculate billing amount" name="billing amount 2" time="0.006">
+<system-out><![CDATA[Given user is on biling page................................................passed
+When user enters billing amount  <biling amount>............................passed
+When userenters tax amount 2.2..............................................passed
+And user clicks on calculate button.........................................passed
+Then it gives the final amount 222.33.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="calculate billing amount" name="billing amount 3" time="0.009">
+<system-out><![CDATA[Given user is on biling page................................................passed
+When user enters billing amount  <biling amount>............................passed
+When userenters tax amount 10...............................................passed
+And user clicks on calculate button.........................................passed
+Then it gives the final amount 111..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,32 @@
+package RestAssuredTest;
+
+import org.testng.annotations.Test;
+import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.*;
+
+public class Demo6_XML_Validation {
+	
+	@Test
+	void testSinglecontent() {
+		
+		given()
+		.when()
+		.get("url")
+		.then()
+		.body("CutomerId", equalTo("15"))
+		.log().all();
+		
+		
+	}
+	
+	@Test
+	void testMulticontent() {
+		
+		given()
+		.when()
+		.get("url")
+		.then()
+		.body("CutomerId", equalTo("15"))
+		.log().all();
+
+}

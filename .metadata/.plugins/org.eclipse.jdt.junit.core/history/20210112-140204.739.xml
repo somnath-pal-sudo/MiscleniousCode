@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="billingrunner" project="Cucumberpractices" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="testrunner.billingrunner" time="2.601">
+    <testsuite name="calculate billing amount" time="2.601">
+      <testcase name="billing amount #1" classname="calculate billing amount" time="0.327"/>
+      <testcase name="billing amount #2" classname="calculate billing amount" time="0.033"/>
+      <testcase name="billing amount #3" classname="calculate billing amount" time="2.241"/>
+    </testsuite>
+  </testsuite>
+</testrun>

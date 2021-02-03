@@ -1,0 +1,6 @@
+package com.Fk.login;
+
+public interface WebDriver {
+	
+
+}

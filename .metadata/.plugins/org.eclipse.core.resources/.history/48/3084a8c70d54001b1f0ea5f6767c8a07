@@ -1,0 +1,35 @@
+package MyHooks;
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
+
+public class AmazonHooks {
+	
+	@Before(order=1)
+	public void setup_app(Scenario sc)
+	{
+		System.out.println("launch amazon app");
+		System.out.println(sc.getName());
+	}
+	@Before(order=2)
+	public void db_setup()
+	{
+		System.out.println("set up db");
+	}
+	
+	@After(order=1)
+	public void tearDown()
+	{
+		System.out.println("close the db");
+	}
+	@After(order=2)
+	public void tearDown_db()
+	{
+		System.out.println("close the browser");
+	}
+	
+	
+	
+
+}

@@ -1,0 +1,46 @@
+package postapi;
+
+import org.json.simple.JSONObject;
+
+import io.restassured.RestAssured;
+import io.restassured.http.Method;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+
+public class TC002_Post_Request {
+	
+	
+	@SuppressWarnings("unchecked")
+	public void registrationSuccessful() {
+		 RestAssured.baseURI="http://restapi.demoqa.com/customer";
+		 RequestSpecification httprequest= RestAssured.given();
+		 
+		 //response object body--request payload
+		 
+		 JSONObject requestparams= new JSONObject();
+		 requestparams.put("Firstname", "Somnath");
+		 requestparams.put("Lastname", "pal");
+		 requestparams.put("Username", "Somnathpal");
+		 requestparams.put("Password", "xyz");
+		 requestparams.put("Emailadd", "Somnath@gmail.com");
+		 
+		 //request type//
+		 httprequest.header("Content-Type","application/json");
+		 httprequest.body(requestparams.toJSONString());
+		 
+		 //response body//
+		 
+		 Response response=httprequest.request(Method.POST,"/register");
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+
+
+	
+	}
+
+}

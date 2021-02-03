@@ -1,0 +1,42 @@
+package RestAssuredTest;
+
+import java.util.HashMap;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+
+public class Demo2_Post_Req {
+	
+	public static HashMap map= new HashMap();
+
+	
+		
+		@BeforeClass
+       public void postdata() {
+			
+			map.put("firstName",RestUtils.getUserName());
+			map.put("firstName",RestUtils.getPWD());
+			map.put("firstName",RestUtils.getEmail());
+			map.put("firstName",RestUtils.empSal());
+			map.put("firstName",RestUtils.empAge());
+			
+			RestAssured.baseURI="URL";
+			RestAssured.basePath="/register";
+			
+			
+    	   
+    	   
+			
+		}
+		
+		@Test
+		public void testpost() {
+			
+		}
+
+		
+	}
+
+

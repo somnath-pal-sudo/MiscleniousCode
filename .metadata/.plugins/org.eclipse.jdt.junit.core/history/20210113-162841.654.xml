@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="testrunner" project="CucumberYouTubeSeries" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="MyTestrunner.testrunner" time="0.0">
+    <testsuite name="Account page feature" time="0.0">
+      <testcase name="Account sections count" classname="Account page feature" time="0.0">
+        <error>java.lang.NullPointerException&#13;
+	at stepdefinitions.accountsteps.user_has_already_logged_in_to_application(accountsteps.java:26)&#13;
+	at ✽.user has already logged in to application(file:///C:/Users/v-sompa/eclipse-workspace/CucumberYouTubeSeries/src/test/resources/com/features/account.feature:4)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="testrunner" project="CucumberYouTubeSeries" tests="3" started="3" failures="0" errors="9" ignored="0">
+  <testsuite name="MyTestrunner.testrunner" time="0.395">
+    <testsuite name="login page feature" time="0.395">
+      <testcase name="login page title" classname="login page feature" time="0.35">
+        <error>java.lang.NullPointerException&#13;
+	at com.qa.factory.driverfactory.init_driver(driverfactory.java:27)&#13;
+	at Apphooks.AppHooks.launchBrowser(AppHooks.java:34)&#13;
+&#13;
+java.lang.NullPointerException&#13;
+	at Apphooks.AppHooks.teraDown(AppHooks.java:46)&#13;
+&#13;
+java.lang.NullPointerException&#13;
+	at Apphooks.AppHooks.quitBrowser(AppHooks.java:39)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="- Forgot pasword Link" classname="login page feature" time="0.018">
+        <error>java.lang.NullPointerException&#13;
+	at com.qa.factory.driverfactory.init_driver(driverfactory.java:27)&#13;
+	at Apphooks.AppHooks.launchBrowser(AppHooks.java:34)&#13;
+&#13;
+java.lang.NullPointerException&#13;
+	at Apphooks.AppHooks.teraDown(AppHooks.java:46)&#13;
+&#13;
+java.lang.NullPointerException&#13;
+	at Apphooks.AppHooks.quitBrowser(AppHooks.java:39)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="login with correct credentials" classname="login page feature" time="0.019">
+        <error>java.lang.NullPointerException&#13;
+	at com.qa.factory.driverfactory.init_driver(driverfactory.java:27)&#13;
+	at Apphooks.AppHooks.launchBrowser(AppHooks.java:34)&#13;
+&#13;
+java.lang.NullPointerException&#13;
+	at Apphooks.AppHooks.teraDown(AppHooks.java:46)&#13;
+&#13;
+java.lang.NullPointerException&#13;
+	at Apphooks.AppHooks.quitBrowser(AppHooks.java:39)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

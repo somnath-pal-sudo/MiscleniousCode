@@ -1,0 +1,666 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-12T08:32:05.044Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHooks.setup_app(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHooks.db_setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "billing amount",
+        "description": "",
+        "id": "calculate-billing-amount;billing-amount;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHooks.tearDown_db()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.screenshot()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "user is on biling page",
+            "match": {
+              "location": "stepdefinitions.billingcalculation.user_is_on_biling_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.screenshot()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "user enters billing amount  \u003cbiling amount\u003e",
+            "match": {
+              "location": "stepdefinitions.billingcalculation.user_enters_billing_amount_biling_amount(java.lang.Integer)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.screenshot()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "userenters tax amount 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.billingcalculation.userenters_tax_amount(java.lang.Double)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.screenshot()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user clicks on calculate button",
+            "match": {
+              "location": "stepdefinitions.billingcalculation.user_clicks_on_calculate_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.screenshot()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "it gives the final amount 112",
+            "match": {
+              "arguments": [
+                {
+                  "val": "112",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.billingcalculation.it_gives_the_final_amount(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-12T08:32:05.191Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHooks.setup_app(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHooks.db_setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "billing amount",
+        "description": "",
+        "id": "calculate-billing-amount;billing-amount;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHooks.tearDown_db()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.screenshot()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "user is on biling page",
+            "match": {
+              "location": "stepdefinitions.billingcalculation.user_is_on_biling_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.screenshot()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "user enters billing amount  \u003cbiling amount\u003e",
+            "match": {
+              "location": "stepdefinitions.billingcalculation.user_enters_billing_amount_biling_amount(java.lang.Integer)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.screenshot()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "userenters tax amount 2.2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2.2",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.billingcalculation.userenters_tax_amount(java.lang.Double)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.screenshot()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user clicks on calculate button",
+            "match": {
+              "location": "stepdefinitions.billingcalculation.user_clicks_on_calculate_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.screenshot()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "it gives the final amount 222.33",
+            "match": {
+              "arguments": [
+                {
+                  "val": "222.33",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.billingcalculation.it_gives_the_final_amount(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-12T08:32:05.218Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHooks.setup_app(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHooks.db_setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "billing amount",
+        "description": "",
+        "id": "calculate-billing-amount;billing-amount;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHooks.tearDown_db()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.screenshot()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "user is on biling page",
+            "match": {
+              "location": "stepdefinitions.billingcalculation.user_is_on_biling_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.screenshot()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "user enters billing amount  \u003cbiling amount\u003e",
+            "match": {
+              "location": "stepdefinitions.billingcalculation.user_enters_billing_amount_biling_amount(java.lang.Integer)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.screenshot()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "userenters tax amount 10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.billingcalculation.userenters_tax_amount(java.lang.Double)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.screenshot()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user clicks on calculate button",
+            "match": {
+              "location": "stepdefinitions.billingcalculation.user_clicks_on_calculate_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.screenshot()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "it gives the final amount 111",
+            "match": {
+              "arguments": [
+                {
+                  "val": "111",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.billingcalculation.it_gives_the_final_amount(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "calculate billing amount",
+    "description": "",
+    "id": "calculate-billing-amount",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/AppFeatures/billing.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,18 @@
+package com.Fk.login;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+public class ReadProp {
+
+	public static void main(String[] args) {
+		Properties prop= new Properties();
+		 FileInputStream ip= new FileInputStream("C:\\Users\\v-sompa\\eclipse-workspace\\com.Fk.login\\config.properties");
+		 prop.load(ip);
+		 
+		 System.out.println(prop.getProperty("name"));
+		 
+		 
+		
+
+	}

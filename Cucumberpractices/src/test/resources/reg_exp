@@ -1,0 +1,9 @@
+([0-9])-->capture group
+-----quantifiers----
++ * ? {n}--no. of occurrance
+([0-9]+)---o to 9 digits appear 
+([0-9]{4})--0000,9999,1212
+([0-9]*)---zero or more
+([0-9]?)--zero or once
+([a-zA-Z0-9]+)--- once or more
+

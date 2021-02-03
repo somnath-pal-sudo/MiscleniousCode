@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="parallelrun (1)" project="CucumberYouTubeSeries" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="Parallel.parallelrun" time="2.676">
+    <testsuite name="Account page feature" time="0.332">
+      <testcase name="Account sections count" classname="Account page feature" time="0.332"/>
+    </testsuite>
+    <testsuite name="contact Us feature" time="0.038">
+      <testcase name="Contact Us scenario wit different set of data #1" classname="contact Us feature" time="0.023"/>
+      <testcase name="Contact Us scenario wit different set of data #2" classname="contact Us feature" time="0.015"/>
+    </testsuite>
+    <testsuite name="login page feature" time="2.306">
+      <testcase name="login page title" classname="login page feature" time="0.018"/>
+      <testcase name="- Forgot pasword Link" classname="login page feature" time="0.012"/>
+      <testcase name="login with correct credentials" classname="login page feature" time="2.276"/>
+    </testsuite>
+  </testsuite>
+</testrun>

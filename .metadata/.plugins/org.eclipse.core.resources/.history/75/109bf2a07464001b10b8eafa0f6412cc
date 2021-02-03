@@ -1,0 +1,29 @@
+package RestAssuredTest;
+
+import java.util.HashMap;
+
+import org.testng.annotations.BeforeClass;
+
+public class Demo3_Put_req {
+	
+	@SuppressWarnings("rawtypes")
+	public static HashMap map= new HashMap();
+	
+	String empname=RestUtils.empName();
+	String empage= RestUtils.empAge();
+	String empsal= RestUtils.empSal();
+	int emp_id=1001;
+	
+	@BeforeClass
+	public void putdata() {
+		
+		map.put("name", empname);
+		map.put("Salary", value)
+		
+		
+		
+		
+		
+	}
+
+}

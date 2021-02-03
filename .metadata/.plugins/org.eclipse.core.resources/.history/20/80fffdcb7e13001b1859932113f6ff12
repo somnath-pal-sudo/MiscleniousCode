@@ -1,0 +1,18 @@
+package Collections;
+
+import java.util.ArrayList;
+import java.util.Objects;
+
+public class ArrayListConcept {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<integer> ar= new Arraylist<integer>();
+		ar.add(10);
+		ar.add(20);
+		System.out.println(ar);
+		
+
+	}
+
+}

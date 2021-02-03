@@ -1,0 +1,5 @@
+package GetApi;
+
+public class TC_003_Get_request {
+
+}

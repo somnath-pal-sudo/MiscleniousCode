@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Cucumberpractices" project="Cucumberpractices" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="testrunner.ubertest" time="2.445">
+    <testsuite name="uber booking feature" time="2.445">
+      <testcase name="Booking Cab" classname="uber booking feature" time="0.263"/>
+      <testcase name="Booking Cab SUV" classname="uber booking feature" time="0.032"/>
+      <testcase name="Booking Cab mini" classname="uber booking feature" time="2.15"/>
+    </testsuite>
+  </testsuite>
+  <testsuite name="testrunner.backgroundOrder" time="0.014">
+    <testsuite name="HomePage" time="0.014">
+      <testcase name="Check previuos Order Details" classname="HomePage" time="0.014"/>
+    </testsuite>
+  </testsuite>
+</testrun>

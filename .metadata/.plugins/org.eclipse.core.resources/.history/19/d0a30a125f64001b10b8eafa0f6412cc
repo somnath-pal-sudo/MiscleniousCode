@@ -1,0 +1,26 @@
+package RestAssuredTest;
+
+import org.testng.annotations.Test;
+import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.*;
+
+
+
+public class Demo1_Get_req {
+
+	@Test
+	public void getRequest() {
+		
+		given()
+		.when()
+		.get("URL")
+		.then()
+		.statusCode(200)
+		.statusLine("HTTP/1.1, 200 OK")
+		.assertThat().body("city", equalTo(""))
+		.header("Content-Type","application/json");
+		
+		
+		
+	}
+}

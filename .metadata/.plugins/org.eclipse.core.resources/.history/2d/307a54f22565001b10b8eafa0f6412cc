@@ -1,0 +1,33 @@
+package serializationDeserialization;
+
+import java.util.ArrayList;
+
+import org.testng.annotations.Test;
+
+public class studentAPIwithSerialization {
+	
+	@Test(priority=0)
+	public void createStudentWithSerialization() {
+		
+		
+		
+		ArrayList<String> al= new ArrayList<String>();
+		al.add("java");
+		al.add("Selenium");
+		
+		
+		Student std= new Student();
+		std.setId(101);
+		std.setFirstName("John");
+		std.setLastname("Deo");
+		std.setEmail("abc@gmail.com");
+		std.setProgramme("CSE");
+		std.setCourses(al);
+		
+		
+		
+		
+		
+	}
+
+}

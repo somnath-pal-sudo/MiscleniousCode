@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ubertest" project="Cucumberpractices" tests="3" started="3" failures="0" errors="3" ignored="0">
+  <testsuite name="testrunner.ubertest" time="0.19">
+    <testsuite name="uber booking feature" time="0.19">
+      <testcase name="Booking Cab" classname="uber booking feature" time="0.166">
+        <error>io.cucumber.java.PendingException: TODO: implement me&#13;
+	at stepdefinitions.uberbookingsteps.user_selects_car_and_pickup_from_and_drop_location(uberbookingsteps.java:19)&#13;
+	at ✽.user selects car "Sedan" and pickup from "Bangalore" and drop location "Pune"(file:///C:/Users/v-sompa/eclipse-workspace/Cucumberpractices/src/test/resources/AppFeatures/uber.feature:6)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Booking Cab SUV" classname="uber booking feature" time="0.007">
+        <error>io.cucumber.java.PendingException: TODO: implement me&#13;
+	at stepdefinitions.uberbookingsteps.user_selects_car_and_pickup_from_and_drop_location(uberbookingsteps.java:19)&#13;
+	at ✽.user selects car "Sedan" and pickup from "Bangalore" and drop location "HYD"(file:///C:/Users/v-sompa/eclipse-workspace/Cucumberpractices/src/test/resources/AppFeatures/uber.feature:16)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Booking Cab mini" classname="uber booking feature" time="0.013">
+        <error>io.cucumber.java.PendingException: TODO: implement me&#13;
+	at stepdefinitions.uberbookingsteps.user_selects_car_and_pickup_from_and_drop_location(uberbookingsteps.java:19)&#13;
+	at ✽.user selects car "Sedan" and pickup from "Bangalore" and drop location "pune"(file:///C:/Users/v-sompa/eclipse-workspace/Cucumberpractices/src/test/resources/AppFeatures/uber.feature:24)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

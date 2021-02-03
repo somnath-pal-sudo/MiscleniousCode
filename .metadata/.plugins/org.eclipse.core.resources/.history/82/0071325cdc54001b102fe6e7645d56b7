@@ -1,0 +1,69 @@
+package stepdefinitions;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import junit.framework.Assert;
+
+import com.pages.*;
+import com.qa.factory.driverfactory;
+
+@SuppressWarnings("unused")
+public class loginsteps {
+	private com.pages.loginpage loginpage= new com.pages.loginpage(driverfactory.getdriver());
+	
+	@Given("user is on login page")
+	public void user_is_login_page() {
+		String title= loginpage.getloginpagetitle();
+		System.out.println("loginpagetitle"+ title);
+	    
+	}
+
+	@When("user gets the title of the page")
+	public void user_gets_the_title_of_the_page() {
+	   
+	}
+
+	@Then("page title should be {string}")
+	public void page_title_should_be(String expectedTitleName) {
+		String title=loginpage.getloginpagetitle();
+		Assert.assertTrue(title.contains(expectedTitleName));
+		
+	}
+
+	@When("user is on login page")
+	public void user_is_on_login_page() {
+	    
+	}
+
+	@Then("forgot your password link sould be displayed")
+	public void forgot_your_password_link_sould_be_displayed() {
+	   
+	}
+
+	@When("user enters username {string}")
+	public void user_enters_username(String string) {
+	   
+	}
+
+	@When("user enters password {string}")
+	public void user_enters_password(String string) {
+	   
+	}
+
+	@When("user clicks on login button")
+	public void user_clicks_on_login_button() {
+	    
+	}
+
+	@Then("user gets the title of the page")
+	public void user_gets_the_title_of_the_home_page() {
+	    
+	}
+
+	@Then("the page titile should be {string}")
+	public void the_page_titile_should_be(String string) {
+	  
+	}
+
+}

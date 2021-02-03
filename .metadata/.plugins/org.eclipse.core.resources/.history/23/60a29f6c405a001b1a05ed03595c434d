@@ -1,0 +1,55 @@
+package com.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class contactus {
+	
+	private WebDriver driver;
+	
+	private By subjectheading= By.id("id_contact");
+	private By email= By.id("email");
+	private By orderref= By.name("id_order");
+	private By messageText= By.id("message");
+	private By sendButton= By.id("submitMessage");
+	private By successMessg= By.cssSelector("div#center_column");
+	
+	
+	public contactus(WebDriver driver) {
+		this.driver=driver;
+	}
+	
+	
+	public String getcontactuspagetitle() {
+		return driver.getTitle();
+	}
+	
+	
+	public void fillcontactusform(String heading, String emailId, String orderRefference,String message ) {
+		Select select =new Select(driver.findElement(subjectheading));
+		select.selectByVisibleText(heading);
+		driver.findElement(email).sendKeys(emailId);
+		driver.findElement(orderref).sendKeys(orderRefference);
+		driver.findElement(messageText).sendKeys(message);
+	}
+		
+		public void clicksend() {
+			driver.findElement(sendButton).click();
+		}
+		
+		public String getsuccessmsg() {
+			return driver.findElement(successMessg).getText();
+		}
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}
