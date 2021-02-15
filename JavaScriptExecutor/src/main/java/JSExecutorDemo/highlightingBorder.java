@@ -41,6 +41,28 @@ public class highlightingBorder {
 	
 	
 }
+	public static void clickElement(WebElement element,WebDriver driver) {
+		JavascriptExecutor js= (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].click();",element);
+		
+}
+	public static void generateAlert(String message,WebDriver driver) {
+		JavascriptExecutor js= (JavascriptExecutor)driver;
+		js.executeScript("alert('"+message+"')");
+		
+}
+	public static void refreshWindow(WebDriver driver) {
+		JavascriptExecutor js= (JavascriptExecutor)driver;
+		js.executeScript("history.go(0)");
+	
+	
+}
+	public static void scrollIntoView(WebElement element,WebDriver driver) {
+		JavascriptExecutor js= (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].scrollIntoView(true);",element);
+	
+	
+}
 }
 
 
