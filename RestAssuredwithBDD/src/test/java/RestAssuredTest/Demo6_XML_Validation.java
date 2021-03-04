@@ -17,9 +17,10 @@ public class Demo6_XML_Validation {
 		.log().all();
 		
 		
+		
 	}
 	
-	@Test(priority=1)
+	@Test(priority=1,enabled= true)
 	void testMulticontent() {
 		
 		given()

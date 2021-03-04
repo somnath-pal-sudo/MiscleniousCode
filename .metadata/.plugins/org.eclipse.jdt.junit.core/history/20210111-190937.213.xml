@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="ubertest" project="Cucumberpractices" tests="3" started="3" failures="0" errors="0" ignored="0">
-  <testsuite name="testrunner.ubertest" time="2.762">
-    <testsuite name="uber booking feature" time="2.762">
-      <testcase name="Booking Cab" classname="uber booking feature" time="0.277"/>
-      <testcase name="Booking Cab SUV" classname="uber booking feature" time="0.017"/>
-      <testcase name="Booking Cab mini" classname="uber booking feature" time="2.468"/>
-    </testsuite>
-  </testsuite>
-</testrun>
