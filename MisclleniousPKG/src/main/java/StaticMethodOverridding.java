@@ -34,6 +34,8 @@ public class StaticMethodOverridding {
 		 */
 		sm.print();
 		
+		System.err.print(b);
+		
 		
 		
 		

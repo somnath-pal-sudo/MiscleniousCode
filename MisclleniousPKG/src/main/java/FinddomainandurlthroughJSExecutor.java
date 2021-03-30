@@ -23,7 +23,7 @@ public class FinddomainandurlthroughJSExecutor {
 		
 		js.executeAsyncScript("arguments[0].click();", searchbutton);
 		js.executeScript("window.history.go(-1)");
-		js.executeScript("window.location;", args)
+		js.executeScript("window.location;", args);
 		driver.navigate().to("http://www.facebook.com");
 		driver.close();
 		

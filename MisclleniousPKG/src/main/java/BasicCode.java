@@ -9,8 +9,10 @@ public class BasicCode {
 
 	
 	  public static void main(String[] args) { ArrayList<String> namesList = new
-	  ArrayList<String>(Arrays.asList( "alex", "brian", "charles") ); for (String
-	  name: namesList) { System.out.println(name); }
+	  ArrayList<String>(Arrays.asList( "alex", "brian", "charles") ); 
+	  for (String name: namesList) { 
+		  System.out.println(name); 
+		  }
 	  
 	  ArrayList<String> namesList2 = new ArrayList<String>(Arrays.asList( "alex","brian","charles")); 
 	  Iterator<String>it=namesList.iterator();
@@ -67,3 +69,5 @@ public class BasicCode {
 	
 
 }
+
+

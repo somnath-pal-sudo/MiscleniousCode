@@ -11,7 +11,7 @@ public class hashTableBasiccode {
 	//System.out.println(ht);
 	
 	
-Iterator<String> it=	ht.keySet().iterator();
+Iterator<String> it=ht.keySet().iterator();
 while(it.hasNext()) {
 	String key= it.next();
 	String value= ht.get(key);
