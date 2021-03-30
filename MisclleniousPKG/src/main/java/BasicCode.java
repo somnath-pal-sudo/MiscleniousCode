@@ -59,7 +59,7 @@ public class BasicCode {
 	
 	
 	//through foreach loop
-	hmit.forEach((key,value) -> System.out.println(key + " = " + value));
+	//hmit.forEach((key,value) -> System.out.println(key + " = " + value));
 	
 	
 	
