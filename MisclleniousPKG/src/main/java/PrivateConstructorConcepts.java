@@ -8,14 +8,14 @@ public class PrivateConstructorConcepts {
 	
 	}
 	public static int createObject() {
-		int age=20;
+		int age = 30;
 		return age;
 	}
 	
 
 	public static void main(String[] args) {
 		PrivateConstructorConcepts obj= new PrivateConstructorConcepts();
-		obj.age=30;
+		obj.age=20;
 		System.out.println(obj.age);
 		
 		
