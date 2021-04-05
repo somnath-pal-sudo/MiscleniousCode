@@ -33,7 +33,8 @@ public class handleWebtable {
 			  for(int j=1;j<=cols;j++)
 		  {
 		  
-		  String text=driver.findElement(By.xpath(".//*[@id='leftcontainer']/table/tbody/tr["+i+"]/td["+j+"]")).getText(); System.out.println(text);
+		  String text=driver.findElement(By.xpath(".//*[@id='leftcontainer']/table/tbody/tr["+i+"]/td["+j+"]")).getText(); 
+		  System.out.println(text);
 		  
 		  } 
 	 }

@@ -17,7 +17,7 @@ public class ExtentreportsDemo {
 
 	public static void main(String[] args) {
 		
-		ExtentHtmlReporter htmlreporter= new ExtentHtmlReporter("extentreprts.html");
+		ExtentHtmlReporter htmlreporter= new ExtentHtmlReporter("extentreports.html");
 		ExtentReports extent= new ExtentReports();
 		extent.attachReporter(htmlreporter);
 		

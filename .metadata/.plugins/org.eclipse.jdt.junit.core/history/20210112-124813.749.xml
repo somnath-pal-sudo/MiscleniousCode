@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="usrregrunner" project="Cucumberpractices" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="testrunner.usrregrunner" time="2.383">
-    <testsuite name="User regsitration" time="2.383">
-      <testcase name="user registration with different data #1" classname="User regsitration" time="0.299"/>
-      <testcase name="user registration with different data #2" classname="User regsitration" time="2.084"/>
-    </testsuite>
-  </testsuite>
-</testrun>

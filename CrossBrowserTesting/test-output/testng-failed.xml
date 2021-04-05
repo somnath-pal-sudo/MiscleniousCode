@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="firefoxTestSuit(failed)" parallel="tests">
+    <parameter name="browsers" value="firefox"/>
+    <classes>
+      <class name="crossBrowsertesting.verifyTitle">
+        <methods>
+          <include name="verifypagetitle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- crossBrowsertesting.verifyTitle -->
+    </classes>
+  </test> <!-- firefoxTestSuit(failed) -->
+  <test thread-count="5" name="InternetExplorerTestSuit(failed)" parallel="tests">
+    <parameter name="browsers" value="IE"/>
+    <classes>
+      <class name="crossBrowsertesting.verifyTitle">
+        <methods>
+          <include name="verifypagetitle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- crossBrowsertesting.verifyTitle -->
+    </classes>
+  </test> <!-- InternetExplorerTestSuit(failed) -->
+  <test thread-count="5" name="chromeTestSuit(failed)" parallel="tests">
+    <parameter name="browsers" value="chrome"/>
+    <classes>
+      <class name="crossBrowsertesting.verifyTitle">
+        <methods>
+          <include name="verifypagetitle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- crossBrowsertesting.verifyTitle -->
+    </classes>
+  </test> <!-- chromeTestSuit(failed) -->
+</suite> <!-- Failed suite [Suite] -->
