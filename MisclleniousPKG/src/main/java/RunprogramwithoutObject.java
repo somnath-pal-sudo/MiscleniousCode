@@ -1,4 +1,6 @@
 
+
+import org.testng.annotations.Test;
 public class RunprogramwithoutObject {
 	
 	static {
@@ -6,6 +8,7 @@ public class RunprogramwithoutObject {
 	}
 	
 	
+	@Test
 	public static void test() {
 		System.out.println("testing method");
 	}

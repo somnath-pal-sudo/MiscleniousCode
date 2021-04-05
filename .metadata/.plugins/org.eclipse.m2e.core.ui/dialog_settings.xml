@@ -27,18 +27,21 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="ParallelTestSuit.ParallelTestSuit"/>
 			<item value="SeleniumGrid.SeleniumGrid"/>
 			<item value="CucumberYouTubeSeries.Cucumberpractices"/>
 			<item value="ExtentFailureReport.ExtentFailureReport"/>
 			<item value="MavenDemoTest.MavenDemoTest"/>
 		</list>
 		<list key="groupId">
+			<item value="ParallelTestSuit"/>
 			<item value="SeleniumGrid"/>
 			<item value="CucumberYouTubeSeries"/>
 			<item value="ExtentFailureReport"/>
 			<item value="MavenDemoTest"/>
 		</list>
 		<list key="artifactId">
+			<item value="ParallelTestSuit"/>
 			<item value="SeleniumGrid"/>
 			<item value="Cucumberpractices"/>
 			<item value="ExtentFailureReport"/>

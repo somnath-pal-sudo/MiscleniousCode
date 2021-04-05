@@ -1,3 +1,5 @@
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -8,7 +10,7 @@ public class TestCaseDependency {
 	@Test(successPercentage = 60, invocationCount = 3)
 	public void startup() {
 		
-		Assert.assertEquals(10, 20);
+		AssertJUnit.assertEquals(10, 20);
 		System.out.println("start application");
 		
 	}
