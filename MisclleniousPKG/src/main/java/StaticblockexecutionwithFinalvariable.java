@@ -15,6 +15,9 @@ public class StaticblockexecutionwithFinalvariable {
 	
 	public StaticblockexecutionwithFinalvariable() {
 		System.out.println("constructor block");
+		long StartTime=System.nanoTime();
+		long EndTime=System.nanoTime();
+		System.out.println(Math.abs(StartTime-EndTime));
 	}
 	
 	
