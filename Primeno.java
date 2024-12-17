@@ -2,7 +2,7 @@ package InterviewPrograms;
 
 //Java Program to demonstrate Brute Force Method to check if a number is prime
 class Primeno {
- static boolean isPrime(int n)
+ public static boolean isPrime(int n)
  {
      // Corner case
      if (n <= 1)
